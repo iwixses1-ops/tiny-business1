@@ -1,0 +1,20 @@
+# --- Веб-фреймворк ---
+fastapi>=0.115
+uvicorn[standard]>=0.34
+python-dotenv>=1.0
+
+# --- Pydantic v2 ---
+# aiogram 3.31 поддерживает pydantic<2.14 => берём свежую 2.12
+pydantic>=2.12,<2.14
+
+# --- Telegram Bot ---
+# aiogram 3.31: совместим с Python 3.13, pydantic>=2.12, aiohttp>=3.11
+aiogram==3.31.0
+aiohttp>=3.11,<3.15
+
+# --- Тестирование ---
+pytest>=8.3
+pytest-asyncio>=0.25
+
+# --- Работа с HTTP-клиентом для тестов ---
+httpx>=0.28

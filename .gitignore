@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# Секреты и локальные настройки
+.env
+.env.local
+
+# База данных и бэкапы
+data/
+*.db
+*.db-shm
+*.db-wal
+data/backups/*.db
+
+# IDE / macOS / Windows
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# Тестовая отчётность
+.pytest_cache/
+htmlcov/
+.coverage
